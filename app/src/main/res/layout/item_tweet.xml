@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:descendantFocusability="blocksDescendants"
+    android:layout_margin="5dp"
     android:background="#FFFFFF"
-    android:layout_margin="6dp">
+    android:descendantFocusability="blocksDescendants">
 
 
     <ImageView
@@ -28,6 +28,15 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@id/ivProfileImage"
         tools:text="arnold_bhebhe" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/tvScreenName"
+        android:textSize="10sp"
+        tools:text="time" />
 
     <TextView
         android:id="@+id/tvBody"
